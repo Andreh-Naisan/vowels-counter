@@ -51,9 +51,9 @@ int main(int argc, char* argv[])
                     else if (line.at(i) == 'i') { i++; }
                     else if (line.at(i) == 'o') { o++; }
                     else if (line.at(i) == 'u') { u++; }
-                    //else if (line.at(i) == 's') { s++; } //adding three letters for gihub
-                    //else if (line.at(i) == 'c') { c++; }
-                    //else if (line.at(i) == 'w') { w++; }
+                    else if (line.at(i) == 's') { s++; } //adding three letters for gihub
+                    else if (line.at(i) == 'c') { c++; }
+                    else if (line.at(i) == 'w') { w++; }
                 }
             }
             //adding all of the vowels together to view the number of vowels combined
@@ -66,9 +66,9 @@ int main(int argc, char* argv[])
             cout << "The number of I's:......................" << i << endl;
             cout << "The number of O's:......................" << o << endl;
             cout << "The number of U's:......................" << u << endl;
-            //cout << "The number of S's:......................" << s << endl; //displaying the results for github
-            //cout << "The number of C's:......................" << c << endl;
-            //cout << "The number of W's:......................" << w << endl;
+            cout << "The number of S's:......................" << s << endl; //displaying the results for github
+            cout << "The number of C's:......................" << c << endl;
+            cout << "The number of W's:......................" << w << endl;
             cout << "The vowel count is:......................" << count << endl;
 
         }
