@@ -36,7 +36,7 @@ int main(int argc, char* argv[])
         cout << std::setw(75) << std::setfill('*') << "*" << endl;
         cout << "\n" << endl;
         //declaring variables
-        int a=0, e=0, i=0, o=0, u=0;//adding int s c w for github
+        int a=0, e=0, i=0, o=0, u=0 , s=0 ,c=0 ,w=0;//adding int s c w for github
 
         string line;
         //while loop to count for the vowels
